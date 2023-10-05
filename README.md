@@ -31,19 +31,17 @@
 <br />
 <div align="center">
   <a href="https://github.com/xerxesar/remind">
-    <img src="images/remind-logo.svg" alt="Logo" width="80" height="80">
+    <img src="images/remind-logo.svg" alt="Logo" width="240">
   </a>
 
-<h3 align="center">Remind</h3>
-
+<h3 align="center">Remind</h3><p>Helps you organize</p>
   <p align="center">
-    helps you organize
+<!--     <br /> -->
+<!--     <a href="https://github.com/xerxesar/remind"><strong>Explore the docs »</strong></a> -->
+<!--     <br /> -->
     <br />
-    <a href="https://github.com/xerxesar/remind"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/xerxesar/remind">View Demo</a>
-    ·
+<!--     <a href="https://github.com/xerxesar/remind">View Demo</a>
+    · -->
     <a href="https://github.com/xerxesar/remind/issues">Report Bug</a>
     ·
     <a href="https://github.com/xerxesar/remind/issues">Request Feature</a>
@@ -83,18 +81,16 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
 Remind is a sticky notes application (currently on linux) showing sticky notes by pressing a shortcut key (instead of switching to desktop).
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 
 ### Built With
 
-* [![Rust][Rust]][Rust-url]
+[![image][Rust-logo-url]][Rust-url]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 
@@ -116,7 +112,7 @@ It will be tested and released for windows and macos also.
 2. Run `./scripts/install` to copy binaries to `/usr/local/bin/` (needs to be run by sudo).
 3. Run `./scripts/systemd-install` to create and start systemd service for remind.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 
@@ -129,7 +125,7 @@ Hold `Alt` and drag any note window to resize it.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 
@@ -143,7 +139,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 See the [open issues](https://github.com/xerxesar/remind/issues) for a full list of proposed features (and known issues).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 
@@ -161,7 +157,7 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 
@@ -170,7 +166,7 @@ Don't forget to give the project a star! Thanks again!
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 
@@ -181,7 +177,7 @@ Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - khashayar.ar
 
 Project Link: [https://github.com/xerxesar/remind](https://github.com/xerxesar/remind)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 
@@ -192,7 +188,7 @@ Project Link: [https://github.com/xerxesar/remind](https://github.com/xerxesar/r
 * []()
 * []()
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 
@@ -216,6 +212,7 @@ Project Link: [https://github.com/xerxesar/remind](https://github.com/xerxesar/r
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
 [Rust-url]: https://rust-lang.org/
+[Rust-logo-url]: https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white
 [Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
 [Vue-url]: https://vuejs.org/
 [Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
