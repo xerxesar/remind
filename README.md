@@ -31,7 +31,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/xerxesar/remind">
-    <img src="images/remind-logo.png" alt="Logo" width="240">
+    <img src="images/remind-logo.png" alt="Logo" width="128">
   </a>
 
 <h3 align="center">Remind</h3><p>Helps you organize</p>
