@@ -62,8 +62,6 @@ by now remind can show markdown files as sticky notes on the screen, but it can 
 
 Currently remind has no standard packaging. use bash scripts in `./scripts` dir to build, install, and setup remind as systemd service.
 
-Also don't forget to set your desired hotkey to run `remind-hc` (located at `/usr/local/bin/remind-hc` by default).
-> `remind-hc` executable sends a message to the remind service to toggle showing notes.
 ### Prerequisites
 
 To build remind from source code, you need to install rust-lang. 
@@ -74,7 +72,7 @@ To build remind from source code, you need to install rust-lang.
 1. Run `./scripts/build` to build the app by source (running `cargo install` may be needed before)
 2. Run `./scripts/install` to copy binaries to `/usr/local/bin/` (needs to be run by sudo).
 3. Run `./scripts/systemd-install` to create and start systemd service for remind(the service runs in user mode and needs no sudo command).
-4. Set your desired hotkey to run `remind-hc` (located at `/usr/local/bin/remind-hc` by default).
+4. Set a hotkey to run `remind-hc` (which is located at `/usr/local/bin/remind-hc` by default).
 >`remind-hc` executable sends a message to the remind service to toggle showing notes.
 
 
